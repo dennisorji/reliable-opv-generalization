@@ -1,0 +1,14 @@
+Benchmark,Model,Representation,regime,MAE_mean,MAE_std,RMSE_mean,RMSE_std,R2_mean,R2_std,MAE_reduction_from_processing_percent
+OPV-DB,Extra Trees,Molecular structure,Random,1.74,0.017,2.456,0.036,0.813,0.004,
+OPV-DB,Extra Trees,Molecular structure,DOI held-out,1.934,0.03,2.67,0.054,0.779,0.007,
+OPV-DB,Extra Trees,Molecular structure,D:A pair held-out,2.043,0.08,2.742,0.076,0.765,0.033,
+OPV-DB,Extra Trees,Molecular structure,Acceptor held-out,2.151,0.087,2.875,0.218,0.702,0.09,
+OPV-DB,Extra Trees,Molecular structure,Donor held-out,2.8,1.124,3.39,1.045,0.362,0.51,
+Wen–Zhang–Ma,Extra Trees,Structure + processing,Random,1.027,0.099,1.679,0.218,0.862,0.039,19.523
+Wen–Zhang–Ma,Extra Trees,Structure + processing,D:A pair held-out,2.585,0.3,3.379,0.42,0.445,0.037,1.014
+Wen–Zhang–Ma,Extra Trees,Structure + processing,Acceptor held-out,2.57,0.197,3.336,0.416,0.451,0.072,2.386
+Wen–Zhang–Ma,Extra Trees,Structure + processing,Donor held-out,3.157,0.21,3.89,0.342,0.118,0.244,0.966
+Wen–Zhang–Ma,Extra Trees,Structure only,Random,1.277,0.129,1.974,0.183,0.81,0.039,
+Wen–Zhang–Ma,Extra Trees,Structure only,D:A pair held-out,2.611,0.428,3.403,0.546,0.439,0.057,
+Wen–Zhang–Ma,Extra Trees,Structure only,Acceptor held-out,2.633,0.117,3.419,0.33,0.422,0.052,
+Wen–Zhang–Ma,Extra Trees,Structure only,Donor held-out,3.188,0.233,3.93,0.348,0.097,0.259,
