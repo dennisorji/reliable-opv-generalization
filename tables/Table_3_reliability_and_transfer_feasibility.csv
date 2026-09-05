@@ -1,0 +1,10 @@
+Analysis,Evaluation domain,Metric,Result,Interpretation
+Processing benefit,Familiar D:A pair,MAE reduction from processing,27.1%,Large processing benefit within chemistry represented during training
+Processing benefit,Unseen D:A pair,MAE reduction from processing,1.8%,Little incremental processing benefit for completely unseen chemistry
+Chemistry-level bootstrap,Familiar vs unseen D:A,Difference in mean absolute-error reduction,0.237 [95% CI 0.085–0.399],Processing-familiarity advantage remains after resampling complete D:A systems
+Uncertainty ranking,Random CV,Spearman ρ: uncertainty vs error,0.462,Ensemble dispersion provides useful error ranking within familiar domains
+Uncertainty ranking,Donor held-out,Spearman ρ: uncertainty vs error,0.047,Uncertainty ranking largely fails under unseen-donor extrapolation
+Prediction intervals,Donor held-out,90% constant-width interval coverage,86.0%,Nominal interval coverage deteriorates under severe chemical domain shift
+Transfer feasibility,All Wen–Zhang–Ma records,Common RDKit representation coverage,73.54%,More than one-quarter of the processing benchmark lacks a common unmodified RDKit representation
+Transfer feasibility,PCE ≥ 15%,Common RDKit representation coverage,38.02%,Representation incompatibility is strongly enriched among high-performance systems
+Transfer feasibility,PCE ≥ 17%,Common RDKit representation coverage,37.50%,High-performance transfer coverage remains strongly chemically selective
