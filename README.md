@@ -9,7 +9,7 @@ Reproducibility materials for the study **“Reliable Structure–Processing–P
 
 This repository contains the computational workflow used to audit two literature-derived organic-photovoltaic datasets, define chemically independent validation regimes, evaluate structure- and processing-aware predictive models, diagnose domain shift, assess uncertainty reliability, audit cross-dataset representation compatibility, and generate the main publication figures and tables.
 
-The repository is organized around three notebooks. The public notebook copies have execution outputs cleared to keep the archive compact; frozen publication figures and tables are provided separately:
+The repository is organized around three executed notebooks. Their original execution counters and scientific outputs are retained where appropriate, while personal email input, local machine paths, and a failed external-API test trace are removed from the public copies:
 
 1. `01_data_audit_and_cohort_definition.ipynb` — provenance, integrity, identity, processing-data, cross-dataset and cohort audits.
 2. `02_baseline_modelling_and_generalization.ipynb` — molecular representations, validation regimes, baseline/nonlinear models, processing-familiarity analysis, nested Ridge robustness, uncertainty, conformal intervals, transfer-feasibility audit and grouped permutation analysis.
@@ -32,7 +32,7 @@ Some provenance-enrichment steps in Notebook 01 use the Crossref API. The notebo
 
 ## Main outputs
 
-The `figures/` directory contains the six main publication figures extracted from the frozen Notebook 03 outputs. The `tables/` directory contains the three main manuscript tables. Table 2 is stored once as a machine-readable CSV; manuscript formatting is handled separately.
+The `figures/` directory contains the six main publication figures extracted from the frozen Notebook 03 outputs. The `tables/` directory contains the three main manuscript tables. Table 2 is published once as the canonical machine-readable CSV; manuscript formatting is handled separately.
 
 ## Environment
 
