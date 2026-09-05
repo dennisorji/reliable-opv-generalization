@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated preprint and archived release."
+message: "If you use this repository, please cite the associated archived release and, once available, the ChemRxiv preprint."
 title: "Reliable Structure–Processing–Performance Learning in Organic Photovoltaics: Reproducibility Materials"
 type: software
 authors:
@@ -8,6 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0009-1674-0883"
 version: 1.0.0
 date-released: 2026-09-05
+doi: "10.5281/zenodo.22342832"
+url: "https://doi.org/10.5281/zenodo.22342832"
 repository-code: "https://github.com/dennisorji/reliable-opv-generalization"
 keywords:
   - organic photovoltaics
