@@ -1,0 +1,3 @@
+Benchmark,Primary role,Records,Donors,Acceptors,D:A systems,Source publications,Processing features,Structure features
+OPV-DB provenance-clean,Large-scale structure–performance and chemical-generalization benchmark,21590,1986,1436,4853,5439.0,,4096
+Wen–Zhang–Ma physical cohort,Processing-rich structure–processing–performance benchmark,994,60,181,247,,20.0,2008
