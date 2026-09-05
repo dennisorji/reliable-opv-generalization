@@ -3,7 +3,8 @@
 Reproducibility materials for the study **“Reliable Structure–Processing–Performance Learning in Organic Photovoltaics: Chemical Generalization, Processing-Aware Prediction and Uncertainty under Domain Shift.”**
 
 **Author:** Dennis Obinna Orji  
-**ORCID:** 0009-0009-1674-0883
+**ORCID:** 0009-0009-1674-0883  
+**Archived release:** [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.22342832)
 
 ## Study scope
 
@@ -46,9 +47,13 @@ The recorded modeling environment used Python 3.11.15, NumPy 2.4.6, pandas 3.0.5
 - Extra Trees ensemble dispersion is treated as an uncertainty proxy, not as a universally calibrated epistemic uncertainty measure.
 - The cross-dataset transfer-learning experiment was not forced because an independently generated common RDKit representation would selectively exclude modern high-performing acceptor chemistry.
 
+## Archival record
+
+The exact reproducibility snapshot associated with this study is archived on Zenodo as **version 1.0.0**, DOI **10.5281/zenodo.22342832**. This DOI resolves to the frozen release used for the manuscript. Subsequent repository changes should be released as new versions rather than altering the archived v1.0.0 record.
+
 ## Citation
 
-A `CITATION.cff` file is included. After the preprint is deposited, update the citation metadata with the ChemRxiv DOI and archived repository DOI.
+A `CITATION.cff` file is included and identifies the archived Zenodo release. After the ChemRxiv preprint is deposited, the citation metadata can also be updated with the preprint DOI.
 
 ## License
 
