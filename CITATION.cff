@@ -6,8 +6,9 @@ authors:
   - family-names: "Orji"
     given-names: "Dennis Obinna"
     orcid: "https://orcid.org/0009-0009-1674-0883"
-version: 0.1.0
+version: 1.0.0
 date-released: 2026-09-05
+repository-code: "https://github.com/dennisorji/reliable-opv-generalization"
 keywords:
   - organic photovoltaics
   - materials informatics
