@@ -1,10 +1,22 @@
 # Reliable Structure–Processing–Performance Learning in Organic Photovoltaics
 
+[![ChemRxiv](https://img.shields.io/badge/ChemRxiv-10.26434%2Fchemrxiv.15008466%2Fv2-blue.svg)](https://doi.org/10.26434/chemrxiv.15008466/v2)
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22342832.svg)](https://doi.org/10.5281/zenodo.22342832)
+
 Reproducibility materials for the study **“Reliable Structure–Processing–Performance Learning in Organic Photovoltaics: Chemical Generalization, Processing-Aware Prediction and Uncertainty under Domain Shift.”**
 
 **Author:** Dennis Obinna Orji  
 **ORCID:** 0009-0009-1674-0883  
+**ChemRxiv preprint:** [10.26434/chemrxiv.15008466/v2](https://doi.org/10.26434/chemrxiv.15008466/v2)  
 **Archived release:** [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.22342832)
+
+## ChemRxiv preprint
+
+**Dennis Obinna Orji (2026). _Reliable Structure–Processing–Performance Learning in Organic Photovoltaics: Chemical Generalization, Processing-Aware Prediction and Uncertainty under Domain Shift._ ChemRxiv, Version 2.**
+
+**DOI:** [10.26434/chemrxiv.15008466/v2](https://doi.org/10.26434/chemrxiv.15008466/v2)
+
+Published: **8 September 2026**
 
 ## Study scope
 
@@ -53,7 +65,13 @@ The exact reproducibility snapshot associated with this study is archived on Zen
 
 ## Citation
 
-A `CITATION.cff` file is included and identifies the archived Zenodo release. After the ChemRxiv preprint is deposited, the citation metadata can also be updated with the preprint DOI.
+For the scientific study, cite the ChemRxiv preprint:
+
+**Orji, Dennis Obinna (2026). _Reliable Structure–Processing–Performance Learning in Organic Photovoltaics: Chemical Generalization, Processing-Aware Prediction and Uncertainty under Domain Shift._ ChemRxiv, Version 2. https://doi.org/10.26434/chemrxiv.15008466/v2**
+
+For the frozen computational snapshot, cite the Zenodo archive: **10.5281/zenodo.22342832**.
+
+Machine-readable citation metadata are provided in `CITATION.cff`.
 
 ## License
 
