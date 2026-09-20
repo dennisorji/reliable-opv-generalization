@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated archived release and, once available, the ChemRxiv preprint."
+message: "If you use this repository, please cite the associated ChemRxiv preprint. The Zenodo DOI identifies the archived computational release."
 title: "Reliable Structure–Processing–Performance Learning in Organic Photovoltaics: Reproducibility Materials"
 type: software
 authors:
@@ -19,3 +19,13 @@ keywords:
   - processing-aware prediction
   - uncertainty quantification
 license: MIT
+preferred-citation:
+  type: article
+  title: "Reliable Structure–Processing–Performance Learning in Organic Photovoltaics: Chemical Generalization, Processing-Aware Prediction and Uncertainty under Domain Shift"
+  authors:
+    - family-names: "Orji"
+      given-names: "Dennis Obinna"
+      orcid: "https://orcid.org/0009-0009-1674-0883"
+  year: 2026
+  doi: "10.26434/chemrxiv.15008466/v2"
+  url: "https://doi.org/10.26434/chemrxiv.15008466/v2"
